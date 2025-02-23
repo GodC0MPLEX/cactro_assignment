@@ -1,0 +1,45 @@
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+  
+  .projects {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .project {
+    padding: 5px 10px;
+    width: 250px;
+    height: 160px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .danger {
+    background: #ff4d4d;
+    color: white;
+  }
+  .upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .button{
+    background: rgba(13, 25, 206, 0.562);
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

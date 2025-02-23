@@ -1,0 +1,59 @@
+.budgetContainer {
+    background: white;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  
+  /* .donutWrapper {
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .donutChart {
+    transform: rotate(-90deg);
+  }
+  
+  .progressCircle {
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  } */
+  
+  /* .donutText {
+    transform: rotate(90deg);
+    font-size: 24px;
+    font-weight: bold;
+    fill: #1F2937;
+  } */
+  
+  /* .donutSubtext {
+    transform: rotate(90deg);
+    font-size: 12px;
+    fill: #6B7280;
+  } */
+  
+  .legend {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+  }
+  
+  .legendItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #4B5563;
+  }
+  
+  .legendDot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
